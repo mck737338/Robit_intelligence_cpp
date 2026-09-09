@@ -7,7 +7,6 @@ namespace kmc {
 	class queue : public DataFrame<T> {
 	public:
 		queue();
-		//queue(T* array);
 
 		bool empty();
 		virtual size_t size();
